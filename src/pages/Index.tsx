@@ -7,7 +7,7 @@ const Index = () => {
   const [selectedResponse, setSelectedResponse] = useState<'yes' | 'no' | null>(null);
 
   const eventSchedule = [
-    { time: '18:00', title: 'Встреча гостей', icon: 'Users' },
+    { time: '18:00', title: 'Сбор гостей', icon: 'Users' },
     { time: '18:30', title: 'Приветственный фуршет', icon: 'Wine' },
     { time: '19:00', title: 'Торжественная часть', icon: 'PartyPopper' },
     { time: '20:00', title: 'Праздничный ужин', icon: 'UtensilsCrossed' },
